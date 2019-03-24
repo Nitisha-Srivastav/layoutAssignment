@@ -1,0 +1,51 @@
+
+
+#textColor {
+	color:#C3D7E9;
+	padding:25px 0px 25px 0px;
+	margin:25px 0px 25px 0px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+padding:10px;
+text-align:center;
+}
+
+#rowBackground{
+background-color:#DCE1E6;
+}
+
+#notesMargin{
+margin:0px;
+padding: 0px 20px 0px 0px;
+
+}
+
+#Activities{
+	background-color: #cfd2d6;
+	margin: 0px 10px 0px 10px;
+	padding: 0px 5px 0px 5px;
+
+}
+#chart1{
+margin:20px 5px 20px 2px ;
+padding: 30px 20px 0px 20px;
+
+}
+
+#chartdiv {
+	width: 70%;
+	height: 500px;
+	margin:0px 0px 0px 0px ;
+	padding: 0px 2px 0px 2px;
+  }
+
+  #Response{
+	margin:0px 5px 0px 2px ;
+	padding: 0px 20px 0px 20px;
+  }

@@ -1,0 +1,197 @@
+ <!DOCTYPE html>
+ <Head>
+ 
+<link rel="stylesheet" type="text/css" href="Assignment1.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://www.amcharts.com/lib/4/core.js"></script>
+<script src="https://www.amcharts.com/lib/4/charts.js"></script>
+<script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+
+
+</Head>
+<Body>
+ <div>
+
+  <div class ="row">
+  
+    <div class="col-2" style="background-color:#2B465C">
+		  <img src="image.jpg" style="width:50px;height:60px;  display: block;margin-left: auto;margin-right: auto;" >
+			<h5  style="color:white;padding:1% 10% 20% 10%; border-bottom: 2px  groove white;" > Compliance Metric &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dashboard  
+      </h5>
+      <ul  class="list-unstyled">			
+        <li> <a id="textColor" href="#" >Dashboard Summary</a></li><br>
+        <li> <a  id="textColor" href="#">PO Coverage </a></li><br>
+        <li> <a href="#" id="textColor">Oversight of Operating System Flexibility</a></li><br>
+        <li> <a href="#" id="textColor">Government Sourcing </a></li><br>
+        <li> <a href="#" id="textColor">Data Privcy</a></li><br>
+        <li> <a href="#" id="textColor">Corporate Audit</a></li><br>
+        <li> <a href="#" id="textColor">Cyber Security</a></li><br>
+        <li> <a href="#" style ="color:white;">Supplier Code of Conduct(SCoC)</a></li><br>
+        <li> <a href="#" id="textColor">On Time Payment</a></li><br>
+        <li> <a href="#" id="textColor">REACh</a></li><br>
+        <li> <a href="#" id="textColor">Export Control</a></li><br>
+        <li> <a href="#" id="textColor">Internal Audit</a></li><br>
+        <li> <a href="#" id="textColor">Third Party Due Diligence</a></li><br>
+      </ul>
+    </div>
+	
+	<div class="col-10" >
+     <div>
+      <nav class="navbar" style="background-color:#e1e5ea">
+        <div class="col-8">
+        <a href="#"><button class="hamburger" style="float: left;" >&#9776</button></a>
+        </div>
+        <div class="col-4" >
+            <a href="#" style="float:right;" class="glyphicon glyphicon-chevron-down" style="color:black ;">&nbsp;</a>  
+            <p style="float:right;">John Doe</p>
+            <p style="float:right;">&nbsp;</p>
+            <img  src="image2.jpg"  style="width:30px;float:right; border-radius: 50%; ">&nbsp;</img>
+            <a href="#" class="glyphicon glyphicon-bell" style="float:right;" >&nbsp;</a>
+  	    </div>
+      </nav>
+  </div>
+  <div>
+    <h2 style="color:#C2C3C4;border-bottom: 2px  groove #DCE1E6;padding: 0px;margin: 0pxs"> Supplier Code of conduct<span style="color:#DCE1E6;float:right;">01-MAR-2017 </span></h2>
+  </div>
+  
+<div class="row">
+  <div class="col-8">
+    <div style="background-color:#42597f;" id="chart1">
+      <h4 style="color:#699cef;" id="Response"> Response Status</h4>
+      <div id="chartdiv"></div>
+      <script src="assignment.js"></script>
+    </div>
+    <div>
+      <h3 style ="color:#5DA4E1">Supplier agreement to the code</h3>
+    </div>
+    <div>
+      <table style="width:100%">
+        <tr>
+          <td></td>
+          <td>Group</td> 
+          <td>Civil Areo</td>
+	        <td>Defence Areo</td>
+	        <td>Indirect</td>
+	        <td>Marine</td>
+	        <td>Nulear</td>
+	        <td>power System</td>
+	        <td>Other</td>
+        </tr>
+        <tr>
+          <td style="padding:10px 50px 10px 20px;">AP01</td>
+          <td>96.3%</td> 
+          <td>100.0%</td>
+	        <td>100.0%</td>
+	        <td>100.0%</td>
+	        <td>100.0%</td>
+	        <td>70.1%</td>
+	        <td>100.0%</td>
+	        <td>100.0%</td>
+        </tr>
+        <tr id="rowBackground">
+          <td style="background-color:white;padding:10px 50px 10px 20px;">AP02</td>
+          <td>96.3%</td> 
+          <td>100.0%</td>
+	        <td>100.0%</td>
+	        <td>100.0%</td>
+	        <td>100.0%</td>
+	        <td>70.1%</td>
+	        <td>100.0%</td>
+	        <td>100.0%</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <h3 style ="color:#5DA4E1;padding:40px 1px 5px 1px;">Risk mitigation plans in place with 'Priority'suppliers for all identified
+      non-compliances to the SCoC.</h3>
+    </div>
+    <div>
+	    <table style="width:100%">
+        <tr>
+          <td></td>
+          <td>Group</td> 
+          <td>Civil Areo</td>
+	        <td>Defence Areo</td>
+	        <td>Indirect</td>
+	        <td>Marine</td>
+	        <td>Nulear</td>
+	        <td>power System</td>
+	        <td>Other</td>
+        </tr>
+        <tr>
+          <td style="padding:10px 50px 10px 20px;">AP01</td>
+          <td></td> 
+          <td></td>
+	        <td></td>
+	        <td></td>
+	        <td></td>
+	        <td></td>
+	        <td></td>
+	        <td></td>
+        </tr>
+        <tr id="rowBackground">
+          <td style="background-color:white;padding:10px 50px 10px 20px;">AP02</td>
+          <td>96.3%</td> 
+          <td>100.0%</td>
+	        <td>100.0%</td>
+	        <td>100.0%</td>
+	        <td>100.0%</td>
+	        <td>70.1%</td>
+	        <td>100.0%</td>
+	        <td>100.0%</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="col-4" id="notesMargin" >
+    <div id="Activities">
+      <h4 style="color:#77a9f9;margin:20px 10px 20px 20px; padding-top: 5px;">Activities</h4>
+      <ul style="padding:5px 40px 10px 40px; ">
+        <li>Possible mergers to be confirmed and updated</li>
+        <li>Bounceback tagging/inactivating</li>
+        </ul>
+      <h4 style="color:#77a9f9;margin:20px 10px 10px 20px;">Activities-Coming Up</h4>
+      <ul style="padding-bottom:10px">
+        <li>Supplier issue & followup</li>
+        <li>Bounceback tagging/inactivating</li>
+      </ul>
+  </div>
+  <div style="padding: 0px 10px 10px 40px;">
+    <h3 style="color:#77a9f9;padding :50px 1px 5px 1px">Notes</h3>
+    <p  style="border-bottom: 2px  groove #DCE1E6;"> <span style=" font-weight: bold;"> Metric definition</span><br>
+   Supplier aggrement to the court<br>
+   <span style=" font-weight: bold;"> Data Collection</span><br>
+   Assert Compliance inc. 'portal'<br>
+   <span style=" font-weight: bold;"> Data update frequenct</span><br>
+   APIy<br>
+  <span style=" font-weight: bold;">  Data inputter</span><br>
+   Racheal everard<br>
+  <span style=" font-weight: bold;">  Notes</span><br>
+   "Agreement is reconised if in Tob.RRPS do not mandate<br>
+   accross all the suppliers so target aligns to 'appilicable'<br>
+   suppliers.</p>
+   <p><span style=" font-weight: bold;">Metric definition</span><br>
+   Supplier aggrement to the court<br>
+   <span style=" font-weight: bold;">Data Collection</span><br>
+   Assert Compliance inc. 'portal'<br>
+   <span style=" font-weight: bold;">Data update frequenct</span><br>
+   APIy<br>
+   <span style=" font-weight: bold;">Data inputter</span><br>
+   Racheal everard<br>
+   <span style=" font-weight: bold;">Notes</span><br>
+   "Agreement is reconised if in Tob.RRPS do not mandate<br>
+   accross all the suppliers so target aligns to 'appilicable'<br>
+   suppliers.</p>
+  </div>
+ </div>
+</div>
+</div>   
+</div>
+</div>
+</Body>
+</html>
